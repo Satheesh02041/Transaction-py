@@ -1,0 +1,24 @@
+{
+  "input_rows": 73,
+  "valid_rows": 56,
+  "invalid_rows": 17,
+  "duplicates": {
+    "duplicate_transaction_id_rows": 2,
+    "near_duplicate_rows": 1,
+    "total_duplicate_rows": 3
+  },
+  "invalid_reasons": {
+    "INVALID_DATE": 4,
+    "INVALID_AMOUNT": 4,
+    "NEGATIVE_AMOUNT": 2,
+    "MISSING_AMOUNT": 2,
+    "DUPLICATE_ID": 2,
+    "ZERO_AMOUNT": 1,
+    "MISSING_NAME": 1,
+    "NEAR_DUPLICATE": 1
+  },
+  "total_revenue": 85206.0,
+  "total_refunds": 1200.0,
+  "net_revenue": 84006.0,
+  "note": "Total issue counts in invalid_reasons may exceed invalid_rows because a single row can have multiple issues."
+}
